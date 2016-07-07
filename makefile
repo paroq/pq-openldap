@@ -1,6 +1,6 @@
 include $(PQ_FACTORY)/factory.mk
 
-pq_part_name := openldap-2.4.42
+pq_part_name := openldap-2.4.44
 pq_part_file := $(pq_part_name).tgz
 
 pq_openldap_configuration_flags += --prefix=$(part_dir)
