@@ -16,6 +16,7 @@ pq_openldap_configuration_flags += --disable-sql
 pq_openldap_configuration_flags += --disable-shell
 pq_openldap_configuration_flags += --disable-bdb
 pq_openldap_configuration_flags += --disable-hdb
+pq_openldap_configuration_flags += --enable-mdb
 pq_openldap_configuration_flags += --enable-overlays=mod
 
 build-stamp: stage-stamp
